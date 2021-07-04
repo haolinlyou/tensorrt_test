@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/lk/workspace/c_workspace/tensorrt_test/cuda_test/src/cuda_add_test.cu
+cuda_runtime.h
+/home/lk/workspace/c_workspace/tensorrt_test/cuda_test/src/cuda_runtime.h
+iostream
+-
+

@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/timeutils.hpp
+iostream
+-
+chrono
+-
+
+/home/lk/workspace/c_workspace/tensorrt_test/cuda_test/src/cuda_mul_test.cu
+cuda_runtime.h
+/home/lk/workspace/c_workspace/tensorrt_test/cuda_test/src/cuda_runtime.h
+timeutils.hpp
+/home/lk/workspace/c_workspace/tensorrt_test/cuda_test/src/timeutils.hpp
+iostream
+-
+
